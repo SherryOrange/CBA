@@ -1,0 +1,18 @@
+Description: The 2 circles show the best times of Usain Bolt and Justin Gatlin for the 100m sprint
+
+1. The large number is the latest time
+2. The movement in market share is measured in seconds 
+	eg. Justin Gatlin's 2016 time was 0.06 seconds longer than his 2015 time
+		formula: 2016 time (9.80) - 2015 time (9.74)
+3. The position of the circle is the variance of the latest time from a previous time. It moves up if the time is slower, and down if it is faster
+4. The colour is green if the time is faster, red if slower.
+5. The trend line shows 6 years of times, including the current year.
+
+What you have to do:
+
+1. Build the visualisation using the data provided, including the filter and baseline.
+2. Animate the circles to their new position, based on the selection in the comparison filter.
+3. The circles should animate to their new position from their previous position.
+4. The time variance figure should also change based on the selection.
+
+Submit your result with html, css (if required), and js files. Please use D3 if you can.
